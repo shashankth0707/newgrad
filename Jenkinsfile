@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/Hemavathipcse/GradleJenkinsPipeline.git'
+                git branch: 'master', url: 'https://github.com/shashankth0707/newgrad.git'
             }
         }
 
